@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint it!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="toolbox">
+        <div class="option">
+            strokeWidth: <input value="10" id="strokeWidth" max="20" type="number">
+        </div>
+        <div class="option">
+            strokeColor: <input value="#ffffff"id="strokeColor" type="color">
+        </div>
+        <div class="option">
+            backgroundColor: <input value="#014106" id="backgroundColor" type="color">
+        </div>
+        <div class="option">
+            <button id="clear">clear</button>
+        </div>
+    </div>
+    <script src="./canvas.js"></script>
+</body>
+</html>
